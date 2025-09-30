@@ -26,3 +26,13 @@ for num in range(2, current_number-1): # We know how many times we want/need to 
         break # Break the loop since we know the number is not prime
 else: # If the FOR loop doesn't break then the number is prime
     print(f"{current_number} is prime!")
+
+# Challenge 3: Multiplication Table Grid
+print("Multiplication Table:") # Print the table title
+print("     1   2   3   4   5   6   7   8   9  10") # Print the column numbers
+for row in range(1,11): # Loop through each row 1-10
+    print(f"{row:2}", end="") # Print the row number at the start of the line
+    for column in range(1, 11): # Loop through each column number 1-10
+        product = column * row # Calculate the row number by the column number
+        print(f"{product:4}", end="") # Print the product on the same line as its respective row
+    print() # Create a new line for the next row

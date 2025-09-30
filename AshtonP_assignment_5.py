@@ -1,4 +1,4 @@
-# GITHUB LINK
+# GITHUB LINK: https://github.com/pashton7/comp163-assignment-5
 
 # Challenge 1: Collatz conjecture sequence
 current_number = int(input("Enter starting number: ")) # Require user input of number
